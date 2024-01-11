@@ -1,0 +1,551 @@
+    {
+        "doc": "Cargo doc schema",
+        "fields":[
+            {
+                "doc": "Cargo Id",
+                "name": "cargoID",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Temperature of cargo",
+                "name": "temperature",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Unit of measure for temperature",
+                "name": "temperatureUnit",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Cargo information definition id",
+                "name": "cargoInfoDefineID",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Mars commodity name",
+                "name": "marsCommodityName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Mars commodity code",
+                "name": "marsCommodityCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            }
+        ],
+        "name": "CargoDoc",
+        "namespace": "com.maersk.gcss.avro.cargo",
+        "type": "record"
+    },
+    {
+        "doc": "Equipment Doc schema",
+        "fields":[
+            {
+                "doc": "Container Number",
+                "name": "containerNumber",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Container Size in TEU",
+                "name": "Teu",
+                "type": {
+                  "avro.java.double": "Double",
+                  "type": "double"
+                }
+            },
+            {
+                "doc": "Weight of container in KG",
+                "name": "WeightInKg",
+                "type": {
+                  "avro.java.double": "Double",
+                  "type": "double"
+                }
+            },
+            {
+                "doc": "Container Size",
+                "name": "containerSize",
+                "type": {
+                    "avro.java.int": "Integer",
+                    "type": "int"
+                }
+            },
+            {
+                "doc": "Container Type",
+                "name": "containerType",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Hazardous Cargo",
+                "name": "hazardousCargo",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                }
+            },
+            {
+                "doc": "Reefer Cargo",
+                "name": "liveReefer",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                }
+            },
+            {
+                "doc": "Break Bulk Cargo",
+                "name": "breakBulkCargo",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                }
+            },
+            {
+                "doc": "Out Of Gauge Cargo",
+                "name": "outOfGaugeCargo",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                }
+            },
+            {
+                "doc": "Temperature of cargo",
+                "name": "temperature",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Unit of measure for temperature",
+                "name": "temperatureUnit",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Cargo information definition id",
+                "name": "cargoInfoDefineID",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Commodity Name",
+                "name": "commodityName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Height In Feet",
+                "name": "heightInFeet",
+                "type": {
+                    "avro.java.string": "String",
+                    "type": "string"
+                  }
+            },
+            {
+                "doc": "First Transport plan Doc",
+                "name": "firstTPDoc",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Lastest Move Type",
+                "name": "rkemLatestMoveType",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Lastest Move Loc",
+                "name": "RkemLastestMoveLoc",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Latest Move Time",
+                "name": "rkemLatestMoveTime",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Latest Move Act",
+                "name": "rkemLatestMoveAct",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Latest Move Load Port",
+                "name": "rkemLatestMoveLoadPort",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Latest Move Discharge Port",
+                "name": "rkemLatestMoveDischargePort",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "commodityCode",
+                "name": "commodityCode",
+                "type":{
+                    "avro.java.string": "String",
+                    "type": "string"
+                }
+            },
+            {
+                "doc": "UnNumbers",
+                "name": "unNumbers",
+                "type":{
+                    "avro.java.array": "ArrayList<String>",
+                    "type": "array",
+                    "items": "string"
+                }
+            },
+            {
+                "doc": "ImoNumbers",
+                "name": "imoNumbers",
+                "type":{
+                    "avro.java.array": "ArrayList<String>",
+                    "type": "array",
+                    "items": "string"
+                }
+            }
+        ],
+        "name": "ContainerDoc",
+        "namespace": "com.maersk.gcss.avro.container",
+        "type": "record"
+    },
+    {
+        "doc": "Shipment Doc schema",
+        "fields": [
+            {
+                "doc": "The booking number for the shipment booking",
+                "name": "id",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "The data extract timestamp in UTC",
+                "name": "extractTimestampUTC",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "The cargo operator code",
+                "name": "cargoOperatorCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "The name of the consignee",
+                "name": "consigneeName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "The consignee code",
+                "name": "consigneeCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Is US Government shipment",
+                "name": "isUsg",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                },
+                "default": false
+            },
+            {
+                "doc": "Is Nap shipment",
+                "name": "isNap",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                },
+                "default": false
+            },
+            {
+                "doc": "Price owner id",
+                "name": "priceOwnerId",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Price owner scv code",
+                "name": "priceOwnerScvCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Price owner name",
+                "name": "priceOwnerName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Shipper customer id",
+                "name": "shipperCustomerId",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Shipper customer name",
+                "name": "shipperCustomerName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Shipper customer code",
+                "name": "shipperCustomerCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Shipment class",
+                "name": "shipmentClass",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Shipment class",
+                "name": "shipmentClass",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Cargo with no equipment assigned",
+                "name": "cargoWithNoEquipment",
+                "type": {
+                    "type": "array",
+                    "items": "CargoDoc",
+                    "avro.java.array": "ArrayList<CargoDoc>"
+                }
+            },
+            {
+                "doc": "list of containers",
+                "name": "containers",
+                "type": {
+                    "type": "array",
+                    "items": "ContainerDoc",
+                    "avro.java.array": "ArrayList<ContainerDoc>"
+                }
+            },
+            {
+                "doc": "Segment Value Type",
+                "name": "segmentValueTypeValp",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Brand Name",
+                "name": "brandName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Booked By Name",
+                "name": "bookedByName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Booking office",
+                "name": "bookingOffice",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Delivery agreement type",
+                "name": "deliveryAgreementType",
+                "type": {
+                  "avro.java.int": "Integer",
+                  "type": "int"
+                }
+            },
+            {
+                "doc": "Delivery agreement type text",
+                "name": "deliveryAgreementTypeText",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Is VSA cargo",
+                "name": "isVsaCargo",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                }
+            },
+            {
+                "doc": "Contractual customer code",
+                "name": "contractualCustomerCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Contractual customer name",
+                "name": "contractualCustomerName",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Shipment Description",
+                "name": "shipmentDescription",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "BKG Team",
+                "name": "bkgTeam",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "BKG Office Country Cluster",
+                "name": "bkgOfficeCountryCluster",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Booked By Code",
+                "name": "bookedByCode",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Migration Id",
+                "name": "migrationId",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Status",
+                "name": "status",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Rkem Extraction Time Utc",
+                "name": "rkemExtractionTimeUtc",
+                "type": {
+                  "avro.java.string": "String",
+                  "type": "string"
+                }
+            },
+            {
+                "doc": "Is Break bulk",
+                "name": "isBbk",
+                "type": {
+                  "avro.java.boolean": "Boolean",
+                  "type": "boolean"
+                }
+            },
+            {
+                "doc": "Related Transport Plan Docs",
+                "name": "relatedTpDocs",
+                "type": {
+                  "avro.java.map": "HashMap<String, String>",
+                  "type": "map",
+                  "values": "string"
+                }
+            },
+        ],
+        "name": "ShipmentDoc",
+        "namespace": "com.maersk.gcss.avro.shipment",
+        "type": "record"
+    }
